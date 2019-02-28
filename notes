@@ -1,0 +1,14 @@
+# In the virtual env for authentication
+virtualenv venv --python=python3.7
+source venv/bin/activate
+
+# Install the Flask lib
+pip install Flask 
+
+# install RESTful 
+$ pip install Flask-RESTful
+
+# add library Flask-JWT===json web tool
+$ pip install Flask-JWT
+
+
